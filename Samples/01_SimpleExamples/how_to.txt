@@ -1,0 +1,11 @@
+- compile simple program:
+javac -d bin src/swu/oopj/simple/ArgumentDisplay.java 
+
+- run compiled program with arguments:
+java -cp bin swu.oopj.simple.ArgumentDisplay first second "this is third" "and then someting more" "and" "more"
+
+- compile program that uses code for other source files
+javac -d bin -sourcepath src src/swu/oopj/util/Taylor.java 
+
+- Create documentation for our simple utility method
+javadoc -sourcepath src swu.oopj.util -d docs
