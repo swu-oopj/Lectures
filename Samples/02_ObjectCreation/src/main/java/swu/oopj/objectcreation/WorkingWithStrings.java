@@ -20,7 +20,11 @@ public class WorkingWithStrings {
 	  	String s3 = "Some other text";
 	  	String s4 = "Some other text";
 	  	System.out.println("s3==s4 " + (s3 == s4));
-	  	System.out.println("s3.equals(s4) " + s3.equals(s4));	
+	  	System.out.println("s3.equals(s4) " + s3.equals(s4));
+	  	
+	  	s4 = new String("Something else");
+	  	System.out.println("s4 = " + s4);
+	  	System.out.println("s4 = " + s4);
 	}
 	
 	public static void variousStringMethods() {

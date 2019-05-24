@@ -4,7 +4,7 @@ public class Taylor {
 	/**
 	 * Calculates e^x for Taylor series, according to formula:
 	 * e^x=1+x+(x^2/(2!))+(x^3/(3!))+(x^4/(4!))+...
-	 * @param number argument of function e^x 
+	 * @param x argument of function e^x 
 	 * @return e^x calculated as sum of first 10 numbers in Taylor series.
 	 */
 	public static double ePowerX(double x) { 
