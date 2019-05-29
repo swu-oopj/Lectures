@@ -9,9 +9,9 @@ public class ExampleMapCompute {
     public static Map<String, Integer> createMap() {
         Map<String, Integer> grades = new HashMap<>();
 
-        grades.put("Ante", 3);
-        grades.put("Ivana", 5);
-        grades.put("Jasna", 4);
+        grades.put("Wang Shu", 3);
+        grades.put("Feng Mian", 5);
+        grades.put("Yu Yan", 4);
 
         return grades;
     }
@@ -19,20 +19,20 @@ public class ExampleMapCompute {
     public static void main(String[] args) {
         Map<String, Integer> grades = createMap();
 
-        Integer newGrade = grades.compute("Ante", new BiFunction<String, Integer, Integer>() {
+        Integer newGrade = grades.compute("Wang Shu", new BiFunction<String, Integer, Integer>() {
             @Override
             public Integer apply(String key, Integer value) {
                 return value == null ? 1 : value + 1;
             }
         });
-        System.out.println("Now Ante has grade: " + newGrade);
+        System.out.println("Now Wang Shu has grade: " + newGrade);
 
-        Integer newGrade2 = grades.compute("Ante", (key, value) -> value == null ? 1 : value + 1);
-        System.out.println("Now Ante has grade: " + newGrade2);
+        Integer newGrade2 = grades.compute("Wang Shu", (key, value) -> value == null ? 1 : value + 1);
+        System.out.println("Now Wang Shu has grade: " + newGrade2);
         
-        //Obrisati Antu
-        System.out.println("Map has Ante: " + grades.containsKey("Ante"));
-        Integer newGrade3 = grades.compute("Ante", (key, value) -> null);
-        System.out.println("Map has Ante: " + grades.containsKey("Ante"));
+        //Remove Wang Shu
+        System.out.println("Map has Wang Shu? " + grades.containsKey("Wang Shu"));
+        Integer newGrade3 = grades.compute("Wang Shu", (key, value) -> null);
+        System.out.println("Map has Wang Shu? " + grades.containsKey("Wang Shu"));
     }
 }

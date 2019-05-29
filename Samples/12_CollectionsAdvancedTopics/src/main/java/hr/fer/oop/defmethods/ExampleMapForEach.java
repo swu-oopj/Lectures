@@ -9,9 +9,9 @@ public class ExampleMapForEach {
     public static Map<String, Integer> createMap() {
         Map<String, Integer> grades = new HashMap<>();
 
-        grades.put("Ante", 3);
-        grades.put("Ivana", 5);
-        grades.put("Jasna", 4);
+        grades.put("Wang Shu", 3);
+        grades.put("Feng Mian", 5);
+        grades.put("Yu Yan", 4);
 
         return grades;
     }
