@@ -20,7 +20,6 @@ public class ReadFromStandardInput {
 			if (line.equalsIgnoreCase("Q"))
 				break;
 			System.out.println(line);
-		}
-		sc.close();	
+		}		
 	}
 }

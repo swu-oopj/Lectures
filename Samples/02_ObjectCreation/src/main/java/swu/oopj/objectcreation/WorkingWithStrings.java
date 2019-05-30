@@ -12,13 +12,14 @@ public class WorkingWithStrings {
 	}
 
 	public static void equals() {
-		String s1 = new String("Some text.");
-	  	String s2 = new String("Some text.");
+		String s1 = new String("你好"); //Nǐ hǎo				
+		String s2 = new String("你好");
+		
 	  	System.out.println("s1==s2 " + (s1 == s2));
 	  	System.out.println("s1.equals(s2) " + s1.equals(s2));
 
-	  	String s3 = "Some other text";
-	  	String s4 = "Some other text";
+	  	String s3 = "你好";
+	  	String s4 = "你好";
 	  	System.out.println("s3==s4 " + (s3 == s4));
 	  	System.out.println("s3.equals(s4) " + s3.equals(s4));
 	  	
