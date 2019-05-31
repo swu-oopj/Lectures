@@ -8,18 +8,21 @@ public class Main {
 		Point center = Point.centerOf(a, b, c);
 		center.print();
 		
-		Point[] points = new Point[] {a, b, c};
+		Point d = new Point(7, 3);
+		Point[] points = new Point[] {a, b, c, d};
 		center = Point.centerOf(points);
 		center.print();
 		
 		Point.centerOf(a, b).print();
 		Point.centerOf(a, b, c).print();
-		Point.centerOf(a, b, c, new Point(4,8)).print();;
+		Point.centerOf(a, b, c, d).print();
+		Point.centerOf(a, b, c, d, new Point(4,8)).print();
 		
-		Vector v = new Vector(new Point(3,4));
-		v.print();
-		Vector.alpha1 = new Vector(1,1);
-		Vector.alpha2 = new Vector(-1,2);
+		System.out.println("Creatig and printing vector");
+		Vector v = new Vector(d);
+		v.print();		
+		d.setX(17);
+		d.setY(13);
 		v.print();
 	}
 }
