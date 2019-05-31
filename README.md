@@ -7,7 +7,7 @@ The samples and slides are inspired by the  [Object Oriented Programming](http:/
 
 Original materials were created by (in alphabetical order): Ivica Botički, Marko Čupić, Mario Kušek, Boris Milašinović, and Krešimir Pripužić under CC-BY-NC-SA licence.
 
-Adaption for this course is done by Boris Milašinović and shared under the same licence. ![](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+Adapted for the course by Boris Milašinović and shared under the same licence. ![](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
 
 ## Contents
