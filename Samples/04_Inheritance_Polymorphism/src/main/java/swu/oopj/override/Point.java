@@ -1,4 +1,4 @@
-package swu.oopj.constructors.withoverride;
+package swu.oopj.override;
 
 public class Point {	
 	private double x, y;
@@ -33,8 +33,7 @@ public class Point {
 		
 	@Override
 	public boolean equals(Object obj) {	    
-	    Point other = (Point) obj;
-	    //return x == other.x && y == other.y;
+	    Point other = (Point) obj;	   
 	    return Math.abs(x-other.x)<1E-8
 	    		&&
 	    	   Math.abs(y-other.y)<1E-8;
