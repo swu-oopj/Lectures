@@ -8,7 +8,7 @@ public class Main {
 		Item item = new Item("1256", "T-shirt");
 		item.setNetSalePrice(50);
 		System.out.format("%s, price: %.2f, type: %s%n", item, item.getPrice(1), item.getItemType());		
-		Food food = new Food("777", "Home cookies", 2.5, LocalDate.of(2010,5, 11));
+		Food food = new Food("777", "Home cookies", 2.5, LocalDate.of(2020,5, 11));
 		System.out.format("%s, price: %.2f, type: %s%n", food, food.getPrice(1), food.getItemType());
 		Beverage beverage = new Beverage("23", "Juice", 10, 2);
 		System.out.format("%s, price: %.2f, type: %s%n", beverage, beverage.getPrice(1), beverage.getItemType());

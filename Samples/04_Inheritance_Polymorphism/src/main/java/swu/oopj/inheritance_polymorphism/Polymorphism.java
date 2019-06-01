@@ -8,7 +8,7 @@ public class Polymorphism {
 		Item[] items = new Item[3];
 		items[0] =  new Beverage("23", "Juice", 10, 2);	
 		items[1] = new Food("777", "Home cookies", 2.5, LocalDate.of(2020,5, 11));	
-		items[2] = new Item("1256", "T-shirt", 50);
+		items[2] = new Cloth("1256", "T-shirt", 50, 35.5);
 		calculatePrice(items);			
 	}
 
