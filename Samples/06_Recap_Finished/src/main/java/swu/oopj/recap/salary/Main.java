@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         BankManager bankManager = new BankManager();
 
-        SalaryCalculator employeeList[] = new SalaryCalculator[3];
+        Worker employeeList[] = new Worker[3];
 
         Salesman salesman = new Salesman("s1", "s1b", 3000);
         salesman.setTurnover(10000);
