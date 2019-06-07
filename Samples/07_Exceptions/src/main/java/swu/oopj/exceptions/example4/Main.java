@@ -1,4 +1,4 @@
-package swu.oopj.exceptions.example3;
+package swu.oopj.exceptions.example4;
 
 public class Main {
 
@@ -10,6 +10,9 @@ public class Main {
 				System.out.println(num);
 			}
 			catch(NumberFormatException exc){
+				System.out.format("Caught exception at step %d: %s%n",i, exc.getMessage());						
+			}
+			catch(ArrayIndexOutOfBoundsException exc){
 				System.out.format("Caught exception at step %d: %s%n",i, exc.getMessage());						
 			}
 		}

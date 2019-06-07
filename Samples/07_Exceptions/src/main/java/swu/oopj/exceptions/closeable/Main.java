@@ -1,4 +1,4 @@
-package swu.oopj.exceptions.example5;
+package swu.oopj.exceptions.closeable;
 
 public class Main {
 

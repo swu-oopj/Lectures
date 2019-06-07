@@ -1,6 +1,6 @@
-package swu.oopj.exceptions.example3;
+package swu.oopj.exceptions.example4;
 
-public class Main {
+public class MainMultiCatch {
 
 	public static void main(String[] args) {
 		String[] arr = new String[]{ "12", "abc", "15"};			
@@ -9,9 +9,9 @@ public class Main {
 				int num = Integer.parseInt(arr[i]);
 				System.out.println(num);
 			}
-			catch(NumberFormatException exc){
+			catch(NumberFormatException | ArrayIndexOutOfBoundsException exc) {
 				System.out.format("Caught exception at step %d: %s%n",i, exc.getMessage());						
-			}
+			}			
 		}
 		System.out.println("Done");
 	}

@@ -1,4 +1,4 @@
-package swu.oopj.exceptions.example8;
+package swu.oopj.exceptions.custom;
 
 public class Main {
 	

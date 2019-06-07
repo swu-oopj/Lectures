@@ -1,4 +1,4 @@
-package swu.oopj.exceptions.example5;
+package swu.oopj.exceptions.closeable;
 
 public class Resource implements AutoCloseable {
 	private int i;
@@ -10,5 +10,4 @@ public class Resource implements AutoCloseable {
 	public void close()  {
 		System.out.println("Closing #" + i);			
 	}
-
 }
