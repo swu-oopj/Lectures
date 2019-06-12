@@ -1,4 +1,4 @@
-package hr.fer.oop.generics.example5;
+package swu.oopj.generics.example5;
 
 public class Main {
 	public static void main(String[] args) {
