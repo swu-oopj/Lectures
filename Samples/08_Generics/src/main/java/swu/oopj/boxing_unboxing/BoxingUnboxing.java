@@ -3,7 +3,9 @@ package swu.oopj.boxing_unboxing;
 public class BoxingUnboxing {
 
 	public static void main(String[] args) {
-		Integer x = Integer.valueOf(10);
+		int a = 10;
+		Integer x = Integer.valueOf(a); //boxing
+		int c = x.intValue(); //unboxing
 		int y = 20;
 		Integer z = x  + y;
 		// => (auto)unboxing x: x.intValue() + y  => produces int 		

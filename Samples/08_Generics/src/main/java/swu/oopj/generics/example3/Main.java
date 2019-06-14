@@ -10,6 +10,6 @@ public class Main {
 		
 		iPair.printWithPair(sPair);
 		iPair.printWithPair(iPair);
-		//iPoint.printWithPoint("OOP"); //compile error
+		//iPair.printWithPoint("OOP"); //compile error
 	}
 }

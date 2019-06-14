@@ -2,7 +2,7 @@ package swu.oopj.generics.example3;
 
 public class Pair<T> {
 	private T first;
-	private T second;
+	private T second;	
 
 	public Pair(T first, T second) {
 		this.first = first;
@@ -32,5 +32,5 @@ public class Pair<T> {
 				this.toString(), 
 				another.getFirst().toString(), 
 				another.getSecond().toString());
-	}
+	}	
 }

@@ -1,6 +1,6 @@
 package swu.oopj.generics.example2;
 
-public class RawPointMain {
+public class RawPairMain {
 
 	public static void main(String[] args) {
 		Pair iPair = new Pair(5,5);
