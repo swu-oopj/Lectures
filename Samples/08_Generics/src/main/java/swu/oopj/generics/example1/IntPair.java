@@ -20,10 +20,5 @@ public class IntPair {
 	@Override
 	public String toString() {
 		return "(" + first + ", " + second + ")";
-	}
-	
-	public static void main(String[] args) {
-		IntPair point = new IntPair(10, 20);
-		System.out.println(point);
-	}
+	}		
 }

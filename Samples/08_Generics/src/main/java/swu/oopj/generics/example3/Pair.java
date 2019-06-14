@@ -26,7 +26,7 @@ public class Pair<T> {
 		System.out.format("first: %s second %s %n", this.toString(), another.toString());
 	}
 
-	// public <V> void printWithPoint(Point<V> another){
+	// public <V> void printWithPair(Pair<V> another){
 	public void printWithPair(Pair<?> another) {
 		System.out.format("first: %s second %s,%s %n", 
 				this.toString(), 

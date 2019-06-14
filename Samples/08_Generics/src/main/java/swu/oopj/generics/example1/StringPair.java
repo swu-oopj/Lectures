@@ -20,10 +20,5 @@ public class StringPair {
 	@Override
 	public String toString() {
 		return "(" + first + ", " + second + ")";
-	}
-	
-	public static void main(String[] args) {
-		StringPair point = new StringPair("A", "B");
-		System.out.println(point);
-	}
+	}		
 }
