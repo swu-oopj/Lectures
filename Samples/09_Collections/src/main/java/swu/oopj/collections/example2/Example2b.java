@@ -1,4 +1,4 @@
-package hr.fer.oop.lists;
+package swu.oopj.collections.example2;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -12,7 +12,7 @@ public class Example2b {
 
 	public static void main(String[] args) {
 
-		String[] names = { "Eva", "Ivan", "Eva", "Ante", "Ivan", "Jasna", "Stjepan", "Jasna" };
+		String[] names = { "Boris", "Anna", "Boris", "Wang", "Anna", "Li", "Chen", "Li" };
 
 		writeInReverse(names);
 	}
