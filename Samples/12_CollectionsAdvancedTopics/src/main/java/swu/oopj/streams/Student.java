@@ -1,4 +1,4 @@
-package hr.fer.oop.streams;
+package swu.oopj.streams;
 
 import java.text.Collator;
 import java.util.Comparator;

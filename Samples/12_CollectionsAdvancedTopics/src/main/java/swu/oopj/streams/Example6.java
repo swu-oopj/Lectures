@@ -1,4 +1,4 @@
-package hr.fer.oop.streams;
+package swu.oopj.streams;
 
 import java.util.List;
 import java.util.function.Predicate;

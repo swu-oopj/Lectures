@@ -1,4 +1,4 @@
-package hr.fer.oop.streams;
+package swu.oopj.streams;
 
 import java.text.Collator;
 import java.util.Comparator;
@@ -40,7 +40,7 @@ public class Example5 {
 			.map(s -> s.getLastName())			
 			.collect(Collectors.toList());
 		
-		Comparator<Object> comp = Collator.getInstance(Locale.forLanguageTag("hr"));
+		Comparator<Object> comp = Collator.getInstance(Locale.CHINA);
 		//print new collection (but sorted) 
 		lastNames.stream()
 				  .sorted(comp)
