@@ -17,8 +17,8 @@ public class Main {
 				(car) -> System.out.println("Cheap car: " + car)
 		);
 		printCars(cars, 
-				(car) -> car.getType() == CarType.DIESEL,
-				(car) -> System.out.println("Diesel car: " + car)
+				car -> car.getType() == CarType.DIESEL,
+				car -> System.out.println("Diesel car: " + car)
 		);
 	}	
 	

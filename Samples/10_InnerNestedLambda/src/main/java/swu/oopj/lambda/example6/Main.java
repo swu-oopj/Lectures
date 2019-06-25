@@ -28,7 +28,7 @@ public class Main {
 		}
 		
 		CarPair pair = null;
-		int min = Integer.MAX_VALUE;
+		int min = Integer.MAX_VALUE; //although it could be anything as check for pair == null is used
 		
 		for(Car first : cars){
 			for(Car second : cars){

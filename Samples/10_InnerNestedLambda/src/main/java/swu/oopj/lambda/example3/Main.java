@@ -12,12 +12,14 @@ public class Main {
 
 	public static void main(String[] args) {
 		List<Car> cars = CarCatalog.loadCars();
+		System.out.println("Cheap cars:");
 		printCars(cars, new Predicate<Car>(){
 			@Override
 			public boolean test(Car car) {
 				return car.getPrice() < 100000;
 			}
 		});
+		System.out.println("Diesel cars:");
 		printCars(cars, new Predicate<Car>(){
 			@Override
 			public boolean test(Car car) {
