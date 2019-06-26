@@ -18,7 +18,7 @@ public class Example5 {
 		  .filter(new Predicate<Student>() {
 			@Override
 			public boolean test(Student t) {
-				return t.getFinalGrade()>3;
+				return t.getPoints() > 30;
 			}
 		   })
 		  .map(new Function<Student, String>() {
@@ -36,7 +36,7 @@ public class Example5 {
 		// using lambda:
 		lastNames = students
 			.stream()
-			.filter(s -> s.getFinalGrade()>3)
+			.filter(s -> s.getPoints() > 30)
 			.map(s -> s.getLastName())			
 			.collect(Collectors.toList());
 		
