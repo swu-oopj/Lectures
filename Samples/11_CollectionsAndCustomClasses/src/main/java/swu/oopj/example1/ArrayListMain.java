@@ -4,16 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 import swu.oopj.Common;
+import swu.oopj.Student;
+import swu.oopj.StudentFactory;
 
 public class ArrayListMain {
 	
 	public static void main(String[] args) {
-		List<Student1> students = new ArrayList<>();
-		Common.fillStudentsCollection(students, (last, first, id) -> new Student1(last, first, id));			
+		List<Student> students = new ArrayList<>();
+		StudentFactory<Student> factory = (last, first, id) -> new Student(last, first, id);
+		// StudentFactory<Student> factory = Student::new;
+		Common.fillStudentsCollection(students, factory);			
 		System.out.println("I have following students:");
 		Common.printCollection(students);
 		
-		Student1 s = new Student1("Poe", "Edgar Allan", "2345678901");		
+		Student s = new Student("Poe", "Edgar Allan", "2345678901");		
 		System.out.println("Poe present: " + students.contains(s));
 	}
 	

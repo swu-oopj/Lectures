@@ -1,11 +1,11 @@
 package swu.oopj;
 
-public abstract class Student {
+public class Student {
 	protected final String lastName;
 	protected final String firstName;
 	protected final String studentID;
 	
-	protected Student(String lastName, String firstName, String studentID) {		
+	public Student(String lastName, String firstName, String studentID) {		
 		this.lastName = lastName;
 		this.firstName = firstName;
 		this.studentID = studentID;
