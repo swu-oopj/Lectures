@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>swu.oopj</groupId>
-  <artifactId>12_CollectionsAdvancedTopics</artifactId>
+  <artifactId>12_StreamAPI</artifactId>
   <version>1.0</version>
-  <name>12_CollectionsAdvancedTopics</name>
+  <name>12_StreamAPI</name>
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    </properties>
