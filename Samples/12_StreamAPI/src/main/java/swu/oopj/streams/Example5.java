@@ -12,6 +12,7 @@ public class Example5 {
 
 	public static void main(String[] args) {
 		List<Student> students = StudentData.load();
+		Comparator<Object> comp = Collator.getInstance(Locale.CHINA);
 
 		// using anonymous class
 		List<String> lastNames = students.stream()
@@ -26,7 +27,8 @@ public class Example5 {
 			  public String apply(Student t) {
 				return t.getLastName();
 			}
-		  })		  
+		  })	
+		  .sorted(comp)
 		  .collect(Collectors.toList());
 		
 		//print new collection
@@ -37,18 +39,14 @@ public class Example5 {
 		lastNames = students
 			.stream()
 			.filter(s -> s.getPoints() > 30)
-			.map(s -> s.getLastName())			
+			.map(s -> s.getLastName())		
+			.sorted(comp)
 			.collect(Collectors.toList());
 		
-		Comparator<Object> comp = Collator.getInstance(Locale.CHINA);
-		//print new collection (but sorted) 
-		lastNames.stream()
-				  .sorted(comp)
-				 //.sorted()
-				 .forEach(t -> System.out.println(t));
-		System.out.println("-------------");
-		lastNames.stream()		  
-		 .forEach(t -> System.out.println(t));	
+		
+		//print new collection 
+		lastNames.stream()				  
+				 .forEach(t -> System.out.println(t));		
 	}
 	
 }
