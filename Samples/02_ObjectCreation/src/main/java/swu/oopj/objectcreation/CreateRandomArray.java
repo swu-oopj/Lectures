@@ -5,10 +5,12 @@ public class CreateRandomArray {
 	public static void main(String[] args) {
 		if (args.length != 1) {
 			System.out.println("Program requires one argument (array size)");
+			System.exit(1);
 		}
 		int n = Integer.parseInt(args[0]);
 		if (n < 1) {
 			System.out.println("Array size must be a pozitive number");
+			System.exit(2);
 		}
 		
 		double[] arr = create(n); 
