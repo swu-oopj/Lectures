@@ -33,7 +33,7 @@ public class Example6 {
 			.filter(s -> s.getPoints() > threshold)
 			.mapToInt(s -> s.getPoints())
 			.average()
-			.getAsDouble();		
+			.getAsDouble();		//warning: throws Exception if no data => use .ifPresent or .ifPresentOrElse instead
 		System.out.format("Average points for students above threshold %.2f%n", avgGrade2);
 	}
 	
