@@ -35,7 +35,6 @@ Students should be familiar with basic programming concepts (i.e. loops, functio
 ## Homework
 
 ### Homework #1 (5 points)
-Deadline: Wednesday, July 10th 8:00 (local time)
-
-Accept the homework assignement using GitHub class link: [https://classroom.github.com/a/NPuYoGeI](https://classroom.github.com/a/NPuYoGeI), and push your code until the deadline.
+Deadline: Wednesday, ~~July 10th 8:00 (local time)~~ (postponed)
+Accept the homework assignment using GitHub class link: [https://classroom.github.com/a/NPuYoGeI](https://classroom.github.com/a/NPuYoGeI), and push your code until the deadline.
 
