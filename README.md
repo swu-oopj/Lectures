@@ -32,3 +32,10 @@ Assignments are distributed using Github classroom. Therefore, students should h
 
 Students should be familiar with basic programming concepts (i.e. loops, functions) preferably (but not necessary) in C or some C style language.
 
+## Homework
+
+### Homework #1 (5 points)
+Deadline: Wednesday, June 10th 8:00 (local time)
+
+Accept the class using GitHub class link: [https://classroom.github.com/a/NPuYoGeI](https://classroom.github.com/a/NPuYoGeI), and push your code until the deadline.
+
