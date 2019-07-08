@@ -34,7 +34,11 @@ Students should be familiar with basic programming concepts (i.e. loops, functio
 
 ## Homework
 
+### Homework Demo (practice Java and GitHub basics)
+[https://classroom.github.com/a/7eNm7Alz](https://classroom.github.com/a/7eNm7Alz)
+
 ### Homework #1 (5 points)
 Deadline: Wednesday, ~~July 10th 8:00 (local time)~~ (postponed)
-Accept the homework assignment using GitHub class link: [https://classroom.github.com/a/NPuYoGeI](https://classroom.github.com/a/NPuYoGeI), and push your code until the deadline.
+
+Accept the homework assignment using GitHub classroom link: [https://classroom.github.com/a/NPuYoGeI](https://classroom.github.com/a/NPuYoGeI), and push your code until the deadline.
 
