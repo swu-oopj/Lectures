@@ -11,6 +11,9 @@ Adapted for the course by Boris Milašinović and shared under the same licence.
 
 
 ## Contents
+
+### Beginners track
+
 - **Introduction**: Java syntax and types, source file organization and compilation, program memory organization, garbage collector, use of integrated development environment.
 - **Definition of classes**: Fields, methods, encapsulation, constructors, static methods and attributes. 
 - **Polymorphism and inheritance**: Subclasses, inheritance, method overriding, virtual methods and dynamic dispatch.
@@ -18,7 +21,10 @@ Adapted for the course by Boris Milašinović and shared under the same licence.
 - **Exceptions**
 - **Generics**: Generics in Java, type erasure, type inference, bounded type parameters, wildcards for upper and lower bounds.
 - **Collections**: Lists, sets, maps and theirs implementations
-Nested and inner classes, anonymous classes, iterator pattern
+
+### Advanced track
+
+- Nested and inner classes, anonymous classes, iterator pattern
 Lambda expressions
 - **Using custom classes in Java collections**: Use of custom classes in collections, simple and complex comparators, composite comparator as a decorator pattern example.
 - **Advanced collection manipulation**: Java Stream API.
@@ -38,7 +44,7 @@ Students should be familiar with basic programming concepts (i.e. loops, functio
 [https://classroom.github.com/a/7eNm7Alz](https://classroom.github.com/a/7eNm7Alz)
 
 ### Homework #1 (5 points)
-Deadline: Wednesday, ~~July 10th 8:00 (local time)~~ (postponed)
+Deadline: Friday, July 12th 8:00 (local time)
 
 Accept the homework assignment using GitHub classroom link: [https://classroom.github.com/a/NPuYoGeI](https://classroom.github.com/a/NPuYoGeI), and push your code until the deadline.
 
