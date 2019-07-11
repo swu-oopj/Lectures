@@ -61,5 +61,5 @@ Accept the homework assignment using GitHub classroom link: [https://classroom.g
 ## Classroom practice
 
 ### Classroom practice #1
-[https://classroom.github.com/a/7eNm7Alz](https://classroom.github.com/a/7eNm7Alz)
+[https://classroom.github.com/a/vuF-kf4S](https://classroom.github.com/a/vuF-kf4S)
 
