@@ -48,3 +48,18 @@ Deadline: Friday, July 12th 8:00 (local time)
 
 Accept the homework assignment using GitHub classroom link: [https://classroom.github.com/a/NPuYoGeI](https://classroom.github.com/a/NPuYoGeI), and push your code until the deadline.
 
+### Homework #2 (5 points)
+Deadline: Monday, July 15th 8:00 (local time)
+
+Accept the homework assignment using GitHub classroom link: [https://classroom.github.com/a/F3uKWTsY](https://classroom.github.com/a/F3uKWTsY), and push your code until the deadline.
+
+### Homework #3 (10 points)
+Deadline: Monday, July 15th 8:00 (local time)
+
+Accept the homework assignment using GitHub classroom link: [https://classroom.github.com/a/XYcyhJiD](https://classroom.github.com/a/XYcyhJiD), and push your code until the deadline.
+
+## Classroom practice
+
+### Classroom practice #1
+[https://classroom.github.com/a/7eNm7Alz](https://classroom.github.com/a/7eNm7Alz)
+
