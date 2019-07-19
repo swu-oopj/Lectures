@@ -87,3 +87,7 @@ Accept the homework assignment using GitHub classroom link: [https://classroom.g
 
 ### Exam #1 (90 minutes)
 [https://classroom.github.com/a/ZLgtcXyZ](https://classroom.github.com/a/ZLgtcXyZ)
+
+### Exam #1 (150 minutes)
+[https://classroom.github.com/a/1Fwvh1TK](https://classroom.github.com/a/1Fwvh1TK)
+
